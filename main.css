@@ -1,0 +1,94 @@
+body {
+    background-color: #060425;
+    margin: 0%;
+    padding: 0%;
+}
+
+.TopImage {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 278px; 
+}
+
+.TopImage img {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #F0502A;
+}
+
+.MainSection {
+    justify-self: center;
+    background-color: #F0502A;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    width: 60%;
+    height: 1000px;
+}
+
+.Sponsorship {
+    justify-content: center;
+    margin: 30px;
+    width:96%;
+    height: 47.05%;
+    background-color: black;
+    display: inline-flex;
+}
+
+.Video {
+    background-color: #FFFFFF;
+    height: auto;
+    width: 34%;
+    margin: 30px;
+}
+
+.InnerVideo {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.Sponsor {
+    background-color: #FFFFFF;
+    width: 60%;
+    height: auto;
+    margin: 30px;
+    margin-left: 0px;
+    justify-items: center;
+}
+
+.SponsorTitle {
+    
+}
+
+.SponsorBody {
+    margin: 5%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Line {
+    margin: 30px;
+    justify-self: center;
+    width: 96%;
+    background-color: white;
+    height: 5px;
+}
+
+.About {
+    margin: 30px;
+    width: 96%;
+    height: 1000px;
+    background-color: black;
+}
