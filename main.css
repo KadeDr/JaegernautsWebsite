@@ -106,11 +106,26 @@ body {
     justify-items: center;
 }
 
+.SponsorTitle {
+    height: 10%;
+}
+
 /* The.. Sponsor? Body? */
 .SponsorBody {
     margin: 5%;
+    height: 60%;
     text-align: center;
     color: #FFFFFF;
+}
+
+.SponsorButton {
+    margin: 30px;
+    width: 80%;
+    background-color: #FC9C85;
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+    height: 25px;
 }
 
 /* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
