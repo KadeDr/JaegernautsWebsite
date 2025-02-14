@@ -1,3 +1,3 @@
 function ChangeLink(link) {
-    location.replace(link)
+    window.location.replace(link)
 }

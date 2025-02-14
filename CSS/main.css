@@ -126,6 +126,10 @@ body {
     height: 25px;
 }
 
+.SponsorButton:hover {
+    cursor: pointer;
+}
+
 /* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
 .SponsorButton {
     vertical-align: bottom;
