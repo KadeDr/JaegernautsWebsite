@@ -37,6 +37,16 @@ body {
     align-items: center;
 }
 
+.InnerHeader {
+    align-self: center;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5%;
+    align-items:first baseline;
+}
+
 .MainHeader h1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -93,11 +103,6 @@ body {
     margin-top: 0px;
     margin-bottom: 0px;
     justify-items: center;
-}
-
-/* The.. sponsor? Title? */
-.SponsorTitle {
-    
 }
 
 /* The.. Sponsor? Body? */
