@@ -1,7 +1,3 @@
-@font-face {
-    
-}
-
 body {
     background-color: #060425;
     margin: 0px;
@@ -55,7 +51,6 @@ body {
 }
 
 /* Main Scrolling section */
-
 .MainSection {
     justify-self: center;
     margin-left: 20%;
@@ -118,6 +113,7 @@ body {
     color: #FFFFFF;
 }
 
+/* The um.. SPONSOR.. BUTTON?! */
 .SponsorButton {
     margin: 30px;
     width: 80%;
