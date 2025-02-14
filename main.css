@@ -1,14 +1,19 @@
+@font-face {
+    font-family: Roboto;
+    src: url("Fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+}
+
 body {
     background-color: #060425;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 .TopImage {
     padding: 0%;
     margin: 0%;
     width: 100%;
-    height: 278px; 
+    height: 278px;
 }
 
 .TopImage img {
@@ -19,74 +24,105 @@ body {
     object-fit: cover;
 }
 
-.Header {
+.MainHeader {
     padding: 0px;
     margin: 0px;
     width: 100%;
     height: 50px;
     background-color: #F0502A;
-    text-align: center;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.MainHeader h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+
+/* Main Scrolling section */
 
 .MainSection {
     justify-self: center;
-    background-color: #F0502A;
     margin-left: 20%;
     margin-right: 20%;
-    margin-top: 100px;
+    margin-top: 30px;
     width: 60%;
     height: 1000px;
 }
 
+/* Sponsorship section. Video and become a sponsor */
 .Sponsorship {
     justify-content: center;
     margin: 30px;
+    margin-top: 0px;
     width:93%;
-    height: 47.05%;
-    background-color: black;
+    height: 39.5%;
     display: inline-flex;
 }
 
+/* Video Wrapper */
 .Video {
-    background-color: #FFFFFF;
+    border-radius: 3px;
     height: auto;
     width: 34%;
     margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
+/* Physical Video */
 .InnerVideo {
+    border-radius: 3px;
     width: 100%;
     height: 100%;
     border: none;
 }
 
+/* Become a Sponsor Section */
 .Sponsor {
-    background-color: #FFFFFF;
+    border-radius: 3px;
+    background-color: #F0502A;
     width: 60%;
     height: auto;
     margin: 30px;
     margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     justify-items: center;
 }
 
+/* The.. sponsor? Title? */
 .SponsorTitle {
     
 }
 
+/* The.. Sponsor? Body? */
 .SponsorBody {
     margin: 5%;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #FFFFFF;
 }
 
+/* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
+.SponsorButton {
+    vertical-align: bottom;
+}
+
+/* The horizontal divider between vertical elements */
 .Line {
     margin: 30px;
+    margin-top: 0px;
     justify-self: center;
     width: 96%;
     background-color: white;
     height: 5px;
 }
 
+/* About Us Section... */
 .About {
     margin: 30px;
     width: 96%;
