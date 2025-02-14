@@ -1,6 +1,5 @@
 @font-face {
-    font-family: Roboto;
-    src: url("Fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf");
+    
 }
 
 body {
@@ -51,6 +50,7 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     color: #FFFFFF;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 /* Main Scrolling section */
