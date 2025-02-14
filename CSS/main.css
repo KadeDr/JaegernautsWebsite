@@ -58,15 +58,13 @@ body {
     z-index: 99999;
 }
 
-/* The title stuff so the text can actually be alligned to the same position... Please find a better way to do this.. */
+/* The title stuff so the text can actually be alligned to the same position*/
 .InnerHeader {
     align-self: center;
     width: 50%;
-    height: 80%;
     display: flex;
     justify-content: center;
-    margin-bottom: 2.5%;
-    align-items:first baseline;
+    line-height: 50px;
 }
 
 /* The "Jaegernauts" text on the header */
@@ -74,6 +72,11 @@ body {
     margin-left: 20px;
     margin-right: 20px;
     color: #FFFFFF;
+    margin: 0 30px;
+}
+
+.MainHeader h3 {
+    margin: 0;
 }
 
 .MainPage {
