@@ -7,6 +7,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* The jaegernauts logo you are greeted with */
 .TopImage {
     position:relative;
     padding: 0%;
@@ -16,6 +17,7 @@ body {
     z-index: -999999;
 }
 
+/* The physical image.. */
 .TopImage img {
     margin: 0%;
     padding: 0%;
@@ -25,6 +27,7 @@ body {
     z-index: -999999;
 }
 
+/* The main header to where you can locate things */
 .MainHeader {
     padding: 0px;
     margin: 0px;
@@ -39,6 +42,7 @@ body {
     z-index: 99999;
 }
 
+/* The title stuff so the text can actually be alligned to the same position... Please find a better way to do this.. */
 .InnerHeader {
     align-self: center;
     width: 50%;
@@ -49,19 +53,22 @@ body {
     align-items:first baseline;
 }
 
+/* The "Jaegernauts" text on the header */
 .MainHeader h1 {
     margin-left: 20px;
     margin-right: 20px;
     color: #FFFFFF;
 }
 
-/* Main Scrolling section */
+.MainPage {
+    background-color: #060425;
+}
 
+/* Main Scrolling section */
 .MainSection {
     justify-self: center;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 30px;
     width: 70%;
     height: 1000px;
     z-index: 999;
@@ -71,7 +78,6 @@ body {
 .Sponsorship {
     justify-content: center;
     margin: 30px;
-    margin-top: 0px;
     width:93%;
     height: 39.5%;
     display: inline-flex;
