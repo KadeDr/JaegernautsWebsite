@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    background-color: #060425;
+    margin: 0px;
+    padding: 0px;
+}
+
+.TopImage {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 278px;
+}
+
+.TopImage img {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MainHeader {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #F0502A;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.InnerHeader {
+    align-self: center;
+    width: 50%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5%;
+    align-items:first baseline;
+}
+
+.MainHeader h1 {
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Main Scrolling section */
+
+.MainSection {
+    justify-self: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    width: 60%;
+    height: 1000px;
+}
+
+/* Sponsorship section. Video and become a sponsor */
+.Sponsorship {
+    justify-content: center;
+    margin: 30px;
+    margin-top: 0px;
+    width:93%;
+    height: 39.5%;
+    display: inline-flex;
+}
+
+/* Video Wrapper */
+.Video {
+    border-radius: 3px;
+    height: auto;
+    width: 34%;
+    margin: 30px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Physical Video */
+.InnerVideo {
+    border-radius: 3px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Become a Sponsor Section */
+.Sponsor {
+    border-radius: 3px;
+    background-color: #F0502A;
+    width: 60%;
+    height: auto;
+    margin: 30px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    justify-items: center;
+}
+
+.SponsorTitle {
+    height: 10%;
+}
+
+/* The.. Sponsor? Body? */
+.SponsorBody {
+    margin: 5%;
+    height: 60%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.SponsorButton {
+    margin: 30px;
+    width: 80%;
+    background-color: #FC9C85;
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+    height: 25px;
+}
+
+/* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
+.SponsorButton {
+    vertical-align: bottom;
+}
+
+/* The horizontal divider between vertical elements */
+.Line {
+    margin: 30px;
+    margin-top: 0px;
+    justify-self: center;
+    width: 96%;
+    background-color: white;
+    height: 5px;
+}
+
+/* About Us Section... */
+.About {
+    margin: 30px;
+    width: 96%;
+    height: 1000px;
+    background-color: black;
+}
