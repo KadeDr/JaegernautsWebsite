@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}
+
 ::-webkit-scrollbar {
     width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    background: #F0502A;
+    background-color: #F0502A;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -13,7 +19,11 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background-color: #db7e66;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -21,6 +31,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Roboto', sans-serif;
+    user-select: none;
 }
 
 /* The jaegernauts logo you are greeted with */
