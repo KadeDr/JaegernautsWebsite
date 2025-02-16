@@ -113,50 +113,7 @@ body {
     height: 1000px;
     z-index: 999;
     justify-content: center;
-    overflow: hidden;
-}
-
-@media (max-width: 950px) {
-    .MainSection {
-        width: 100%;
-    }
-    .TopImage img {
-        width: 150%;
-        display: block;
-        transform: translateX(-16.25%);
-    }
-}
-
-@media (max-width: 650px) {
-    .TopImage img {
-        width: 200%;
-        display: block;
-        transform: translateX(-25%);
-    }
-    .MainHeader h1 {
-        color: #FFFFFF;
-        margin: 0 20px;
-        font-size: 26px;
-    }
-    .MainHeader h3 {
-        margin: 0 0px;
-        white-space: nowrap;
-        font-size: 13px;
-    }
-}
-
-@media (max-width: 500px) {
-    .TopImage img {
-        width: 270%;
-        display: block;
-        transform: translateX(-31.25%);
-    }
-}
-
-@media (max-height: 800px) {
-    .TopImage {
-        height: 210px;
-    }
+    /* overflow: hidden; */
 }
 
 /* Sponsorship section. Video and become a sponsor */
@@ -174,10 +131,8 @@ body {
     border-radius: 3px;
     height: auto;
     width: 31%;
-    margin: 30px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 30px;
+    background-color: #000000;
 }
 
 /* Physical Video */
@@ -192,7 +147,7 @@ body {
 .Sponsor {
     border-radius: 3px;
     background-color: #F0502A;
-    width: 60%;
+    width: 65%;
     height: auto;
     margin: 30px;
     margin-left: 0px;
@@ -235,14 +190,17 @@ body {
 
 /* About Us Section... */
 .About {
-    width: 100%;
+    width: 93%;
     height: 1000px;
     justify-self: center;
     justify-content: center;
+    margin: 30px;
 }
 
+
+
 .Purpose {
-    width: 25%;
+    width: 45%;
     background-color: #F0502A;
     border-radius: 3px;
     height: auto;
@@ -263,12 +221,13 @@ body {
     margin: 10px;
     color: #FFFFFF;
     text-align: center;
+    font-size:1vw;
 }
 
 .TopPurposeImage {
     vertical-align: top;
     height: auto;
-    width: 50%;
+    width: 20%/*70.5%;*/
 }
 
 .BottomPurposeImage {
@@ -279,9 +238,64 @@ body {
 
 .Map {
     border-radius: 3px;
-    width: 60%;
+    width: 100%;
     height: 60%;
     margin: 30px;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+@media (max-width: 950px) {
+    .MainSection {
+        width: 100%;
+    }
+    .TopImage img {
+        width: 150%;
+        display: block;
+        transform: translateX(-16.25%);
+    }
+}
+
+@media (max-width: 650px) {
+    .TopImage img {
+        width: 200%;
+        display: block;
+        transform: translateX(-25%);
+    }
+    .MainHeader h1 {
+        color: #FFFFFF;
+        margin: 0 20px;
+        font-size: 26px;
+    }
+    .MainHeader h3 {
+        margin: 0 0px;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+
+    /* .Sponsorship {
+        height: 79%;
+        display: grid;
+    }
+
+    .Video {
+        width: 100%;
+    }
+    .Sponsor {
+        width: 100%;
+    } */
+}
+
+@media (max-width: 500px) {
+    .TopImage img {
+        width: 270%;
+        display: block;
+        transform: translateX(-31.25%);
+    }
+}
+
+@media (max-height: 800px) {
+    .TopImage {
+        height: 210px;
+    }
 }
