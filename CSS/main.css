@@ -80,14 +80,13 @@ body {
 
 /* The "Jaegernauts" text on the header */
 .MainHeader h1 {
-    margin-left: 20px;
-    margin-right: 20px;
     color: #FFFFFF;
     margin: 0 30px;
 }
 
 .MainHeader h3 {
-    margin: 0;
+    margin: 0 0px;
+    white-space: nowrap;
 }
 
 .MainPage {
@@ -112,7 +111,44 @@ body {
     width: 70%;
     height: 1000px;
     z-index: 999;
-    justify-content: center;;
+    justify-content: center;
+}
+
+@media (max-width: 950px) {
+    .MainSection {
+        width: 100%;
+    }
+    .TopImage img {
+        width: 150%;
+        display: block;
+        transform: translateX(-16.25%);
+    }
+}
+
+@media (max-width: 650px) {
+    .TopImage img {
+        width: 200%;
+        display: block;
+        transform: translateX(-25%);
+    }
+    .MainHeader h1 {
+        color: #FFFFFF;
+        margin: 0 20px;
+        font-size: 26px;
+    }
+    .MainHeader h3 {
+        margin: 0 0px;
+        white-space: nowrap;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 500px) {
+    .TopImage img {
+        width: 270%;
+        display: block;
+        transform: translateX(-31.25%);
+    }
 }
 
 /* Sponsorship section. Video and become a sponsor */
@@ -223,6 +259,12 @@ body {
 
 .TopPurposeImage {
     vertical-align: top;
+    height: auto;
+    width: 50%;
+}
+
+.BottomPurposeImage {
+    vertical-align: bottom;
     height: auto;
     width: 50%;
 }
