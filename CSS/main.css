@@ -153,6 +153,12 @@ body {
     }
 }
 
+@media (max-height: 800px) {
+    .TopImage {
+        height: 210px;
+    }
+}
+
 /* Sponsorship section. Video and become a sponsor */
 .Sponsorship {
     justify-content: center;
