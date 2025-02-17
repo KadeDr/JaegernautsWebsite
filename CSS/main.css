@@ -102,6 +102,12 @@ body {
 
 .HotlinksWithMenu {
     display: none;
+    height: 50px;
+}
+
+.HotlinksWithMenu h3 {
+    line-height: 50px;
+    margin-left: 10px;
 }
 
 .Hotlinks h3 {
@@ -110,6 +116,22 @@ body {
 
 .Hotlinks h3:hover {
     cursor: pointer;
+}
+
+.SocialsCompressed {
+    display: none;
+    margin-right: 20px;
+
+    position: absolute;
+
+    right: 0%;
+
+    height: 50%;
+    width: auto;
+
+    float: right;
+
+    color: #FFFFFF;
 }
 
 .Socials {
@@ -142,6 +164,23 @@ body {
     width: 100%;
 }
 
+@media (max-width: 1300px) {
+    .HotlinksWithMenu {
+        display: flex;
+    }
+    .Hotlinks {
+        display: none;
+    }
+
+    .SocialsCompressed {
+        display: flex;
+    }
+
+    .Socials {
+        display: none;
+    }
+}
+
 @media (max-width: 950px) {
     body {
         background-color: #060425;
@@ -157,10 +196,11 @@ body {
         display: block;
         transform: translateX(-16.25%);
     }
-    .HotlinksWithMenu {
-        display: flex;
+
+    .SocialsCompressedText {
+        display: none;
     }
-    .Hotlinks {
+    .HomeTwo {
         display: none;
     }
 }
@@ -188,6 +228,11 @@ body {
         width: 270%;
         display: block;
         transform: translateX(-31.25%);
+    }
+
+    .HotlinksWithMenu {
+        height: 30px;
+        margin-left: 5px;
     }
 }
 
