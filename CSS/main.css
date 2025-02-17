@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-@media print {
-    html, body {
-       display: none;  /* hide whole page */
-    }
-}
-
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -82,7 +76,7 @@ body {
 /* The "Jaegernauts" text on the header */
 .MainHeader h1 {
     color: #FFFFFF;
-    margin: 0 30px;
+    margin: 0 20px;
 }
 
 .MainHeader h3 {
@@ -90,165 +84,7 @@ body {
     white-space: nowrap;
 }
 
-.MainPage {
-    background-color: #060425;
-}
-
-/* The horizontal divider between vertical elements */
-.Line {
-    margin: 30px;
-    margin-top: 0px;
-    justify-self: center;
-    width: 93%;
-    background-color: white;
-    height: 5px;
-}
-
-/* Main Scrolling section */
-.MainSection {
-    justify-self: center;
-    margin-left: 15%;
-    margin-right: 15%;
-    width: 70%;
-    height: 1000px;
-    z-index: 999;
-    justify-content: center;
-    /* overflow: hidden; */
-}
-
-/* Sponsorship section. Video and become a sponsor */
-.Sponsorship {
-    justify-content: center;
-    margin: 30px;
-    width:93%;
-    height: 39.5%;
-    display: inline-flex;
-    z-index: 999999;
-}
-
-/* Video Wrapper */
-.Video {
-    border-radius: 3px;
-    height: auto;
-    width: 31%;
-    margin-right: 30px;
-    background-color: #000000;
-}
-
-/* Physical Video */
-.InnerVideo {
-    border-radius: 3px;
-    width: 100%;
-    height: 100%;
-    border: none;
-}
-
-/* Become a Sponsor Section */
-.Sponsor {
-    border-radius: 3px;
-    background-color: #F0502A;
-    width: 65%;
-    height: auto;
-    margin: 30px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    justify-items: center;
-}
-
-.SponsorTitle {
-    height: 10%;
-}
-
-/* The.. Sponsor? Body? */
-.SponsorBody {
-    margin: 5%;
-    height: 60%;
-    text-align: center;
-    color: #FFFFFF;
-}
-
-.SponsorButton {
-    margin: 30px;
-    width: 80%;
-    background-color: #FC9C85;
-    border-radius: 3px;
-    text-align: center;
-    align-content: center;
-    height: 25px;
-}
-
-.SponsorButton:hover {
-    cursor: pointer;
-}
-
-/* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
-.SponsorButton {
-    vertical-align: bottom;
-}
-
-/* About Us Section... */
-.About {
-    width: 93%;
-    height: 1000px;
-    justify-self: center;
-    justify-content: center;
-    margin: 30px;
-}
-
-
-
-.Purpose {
-    width: 45%;
-    background-color: #F0502A;
-    border-radius: 3px;
-    height: auto;
-    align-content: center;
-    justify-items: center;
-    margin: 30px;
-    margin-top: 0px;
-    margin-left: 0px;
-    display: inline-block;
-    justify-content: center;
-}
-
-.PurposeTitle {
-    margin: 10px;
-}
-
-.PurposeBody {
-    margin: 10px;
-    color: #FFFFFF;
-    text-align: center;
-    font-size:1vw;
-}
-
-.TopPurposeImage {
-    vertical-align: top;
-    height: auto;
-    width: 20%/*70.5%;*/
-}
-
-.BottomPurposeImage {
-    vertical-align: bottom;
-    height: auto;
-    width: 50%;
-}
-
-.Map {
-    border-radius: 3px;
-    width: 100%;
-    height: 60%;
-    margin: 30px;
-    margin-top: 0px;
-    margin-left: 0px;
-}
-
 @media (max-width: 950px) {
-    .MainSection {
-        width: 100%;
-    }
     .TopImage img {
         width: 150%;
         display: block;
@@ -272,18 +108,6 @@ body {
         white-space: nowrap;
         font-size: 13px;
     }
-
-    /* .Sponsorship {
-        height: 79%;
-        display: grid;
-    }
-
-    .Video {
-        width: 100%;
-    }
-    .Sponsor {
-        width: 100%;
-    } */
 }
 
 @media (max-width: 500px) {
