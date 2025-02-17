@@ -123,3 +123,9 @@ body {
         height: 210px;
     }
 }
+
+@media (max-height: 700px) {
+    .TopImage {
+        height: 150px;
+    }
+}

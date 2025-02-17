@@ -85,4 +85,7 @@
     .Sponsorship {
         display: contents;
     }
+    .Video {
+        max-height: 30%;
+    }
 }
