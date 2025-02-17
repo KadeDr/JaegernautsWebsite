@@ -100,6 +100,10 @@ body {
     display: inline-flex;
 }
 
+.HotlinksWithMenu {
+    display: none;
+}
+
 .Hotlinks h3 {
     margin-left: 15px;
 }
@@ -152,6 +156,12 @@ body {
         width: 150%;
         display: block;
         transform: translateX(-16.25%);
+    }
+    .HotlinksWithMenu {
+        display: flex;
+    }
+    .Hotlinks {
+        display: none;
     }
 }
 
