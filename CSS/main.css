@@ -61,7 +61,6 @@ body {
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: center;
     align-items: center;
     z-index: 99999;
 }
@@ -69,6 +68,11 @@ body {
 /* Center Info */
 .InnerHeader {
     margin: auto;
+
+    position: absolute;
+
+    left: 50%;
+    transform: translateX(-50%);
 
     width: auto;
     height: auto;
@@ -105,8 +109,16 @@ body {
 }
 
 .Socials {
+    margin-right: 10px;
+
+    position: absolute;
+
+    right: 0%;
+
     height: 50%;
     width: auto;
+
+    float: right;
 }
 
 .Socials img {
