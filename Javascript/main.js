@@ -1,5 +1,5 @@
-function ChangeLink(link) {
-    window.location.replace(link)
+function Redirect(link) {
+    window.open(link)
 }
 
 window.addEventListener('scroll', function () {

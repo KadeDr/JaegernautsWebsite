@@ -30,7 +30,7 @@ body {
     overflow-x: hidden;
 }
 
-/* The jaegernauts logo you are greeted with */
+/* Top Image */
 .TopImage {
     position:relative;
     padding: 0%;
@@ -51,7 +51,7 @@ body {
     z-index: -999999;
 }
 
-/* The main header to where you can locate things */
+/* Main Header */
 .MainHeader {
     padding: 0px;
     margin: 0px;
@@ -66,16 +66,17 @@ body {
     z-index: 99999;
 }
 
-/* The title stuff so the text can actually be alligned to the same position*/
+/* Center Info */
 .InnerHeader {
-    align-self: center;
-    width: 50%;
+    margin: auto;
+
+    width: auto;
+    height: auto;
+    
     display: flex;
-    justify-content: center;
     line-height: 50px;
 }
 
-/* The "Jaegernauts" text on the header */
 .MainHeader h1 {
     color: #FFFFFF;
     margin: 0 20px;
@@ -84,6 +85,39 @@ body {
 .MainHeader h3 {
     margin: 0 0px;
     white-space: nowrap;
+}
+
+/* Hotlinks */
+.Hotlinks {
+    width: auto;
+    height: auto;
+
+    float: left;
+    display: inline-flex;
+}
+
+.Hotlinks h3 {
+    margin-left: 20px;
+}
+
+.Hotlinks h3:hover {
+    cursor: pointer;
+}
+
+.Socials {
+    height: 50%;
+    width: auto;
+}
+
+.Socials img {
+    margin-right: 10px;
+
+    height: 100%;
+    width: auto;
+}
+
+.Socials img:hover {
+    cursor: pointer;
 }
 
 .MainPage {
