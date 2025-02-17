@@ -21,6 +21,8 @@
     justify-self: center;
 
     background-color: white;
+
+    border-radius: 3px;
 }
 
 @media (max-width: 950px) {

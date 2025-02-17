@@ -73,9 +73,16 @@
 
 .SponsorButton:hover {
     cursor: pointer;
+    background-color: #d58975;
 }
 
 /* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
 .SponsorButton {
     vertical-align: bottom;
+}
+
+@media (max-width: 650px) {
+    .Sponsorship {
+        display: contents;
+    }
 }
