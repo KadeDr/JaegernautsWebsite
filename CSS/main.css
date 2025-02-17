@@ -26,6 +26,7 @@ body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     user-select: none;
+    overflow-x: hidden;
 }
 
 /* The jaegernauts logo you are greeted with */
