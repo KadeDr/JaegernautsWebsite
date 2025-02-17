@@ -33,6 +33,7 @@
     width: 100%;
     height: 100%;
     border: none;
+    background-color: #000000;
 }
 
 /* Become a Sponsor Section */
@@ -84,7 +85,8 @@
     .Sponsorship {
         display: contents;
     }
-    .Video {
-        max-height: 30%;
+    .InnerVideo {
+        height: 30%;
+        margin-top: 20px;
     }
 }
