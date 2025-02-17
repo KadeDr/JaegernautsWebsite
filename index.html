@@ -6,33 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jaegernauts</title>
 
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/Index/main.css">
-    <link rel="stylesheet" href="CSS/Index/about.css">
-    <link rel="stylesheet" href="CSS/Index/sponsorhip.css">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/Index/main.css">
+    <link rel="stylesheet" href="./CSS/Index/about.css">
+    <link rel="stylesheet" href="./CSS/Index/sponsorhip.css">
 
     <script src="Javascript/main.js"></script>
 
-    <link rel="icon" href="Extras/JaegernautsLogo.png">
+    <link rel="icon" href="/Extras/JaegernautsLogo.png">
 </head>
 
 <body oncontextmenu="return false">
 
     <!-- Header -->
     <div class="TopImage">
-        <img class="TopImageImage" src="Extras/Jaegernauts.png" alt="Jaegernauts Header">
+        <img class="TopImageImage" src="/Extras/Jaegernauts.png" alt="Jaegernauts Header">
     </div>
 
     <div class="MainHeader">
         <div class="HotlinksWithMenu">
             <div class="OuterDropdown">
-                <img onclick="ToggleDropdown()" class="Dropdown" src="Extras/Menu.png">
+                <img onclick="ToggleDropdown()" class="Dropdown" src="/Extras/Menu.png">
                 <div class="InnerDropdown" id="InnerDropdown">
-                    <h3 class="DropdownText">Our Team</h3>
+                    <h3 onclick="Redirect('/Pages/OurTeam.html')" class="DropdownText">Our Team</h3>
                     <div class="Spacer"></div>
-                    <h3 class="DropdownText">Sponsors</h3>
+                    <h3 onclick="Redirect('/Pages/Sponsors.html')" class="DropdownText">Sponsors</h3>
                     <div class="Spacer"></div>
-                    <h3 class="DropdownText">API</h3>
+                    <h3 onclick="Redirect('/Pages/API.html')" class="DropdownText">API</h3>
                 </div>
             </div>
             <h3 onclick="Redirect('/index.html')" class="HomeTwo CurrentPage">Home</h3>
@@ -40,10 +40,10 @@
         <!-- Dropdown -->
         <!-- Hotlinks -->
         <div class="Hotlinks">
-            <h3 class="CurrentPage" onclick="Redirect()">Home</h3>
-            <h3 class="OtherPage" onclick="Redirect('Pages/OurTeam.html')">Our Team</h3>
-            <h3 class="OtherPage" onclick="Redirect('Pages/Sponsors.html')">Sponsors</h3>
-            <h3 class="OtherPage" onclick="Redirect('Pages/API.html')">API</h3>
+            <h3 class="CurrentPage" onclick="Redirect('/index.html')">Home</h3>
+            <h3 class="OtherPage" onclick="Redirect('/Pages/OurTeam.html')">Our Team</h3>
+            <h3 class="OtherPage" onclick="Redirect('/Pages/Sponsors.html')">Sponsors</h3>
+            <h3 class="OtherPage" onclick="Redirect('/Pages/API.html')">API</h3>
         </div>
         <!-- Center Info -->
         <div class="InnerHeader">
@@ -53,12 +53,12 @@
         </div>
         <!-- Socials -->
         <div class="Socials">
-            <img src="Extras/Socials/Email.png">
-            <img onclick="NewTab('https://github.com/Jaegernauts5103')" src="Extras/Socials/Github.png">
-            <img src="Extras/Socials/X.png">
-            <img src="Extras/Socials/Facebook.png">
-            <img src="Extras/Socials/Youtube.png">
-            <img onclick="NewTab('https://www.instagram.com/mechsjaegernauts/?igsh=MXFyZTJzeGZwYjIxMg%3D%3D#')" src="Extras/Socials/Instagram.png">
+            <img src="/Extras/Socials/Email.png">
+            <img onclick="NewTab('https://github.com/Jaegernauts5103')" src="/Extras/Socials/Github.png">
+            <img src="/Extras/Socials/X.png">
+            <img src="/Extras/Socials/Facebook.png">
+            <img src="/Extras/Socials/Youtube.png">
+            <img onclick="NewTab('https://www.instagram.com/mechsjaegernauts/?igsh=MXFyZTJzeGZwYjIxMg%3D%3D#')" src="/Extras/Socials/Instagram.png">
         </div>
         <div class="SocialsCompressed">
             <h3 class="SocialsCompressedText">Socials</h3>
