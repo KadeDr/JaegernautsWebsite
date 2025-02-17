@@ -108,6 +108,16 @@ body {
     margin-left: 15px;
 }
 
+.OtherPage {
+    font-weight: 900;
+}
+
+.CurrentPage {
+    color: #FFFFFF;
+    font-weight:900;
+    text-decoration: underline;
+}
+
 .Hotlinks h3:hover {
     cursor: pointer;
 }
