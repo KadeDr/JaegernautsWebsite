@@ -86,8 +86,12 @@ body {
     margin: 0 20px;
 }
 
+.MainHeader h1:hover {
+    cursor: pointer;
+}
+
 .MainHeader h3 {
-    margin: 0 0px;
+    margin: 0px;
     white-space: nowrap;
 }
 
@@ -114,6 +118,29 @@ body {
     margin-left: 15px;
 }
 
+.HotlinksWithMenu h3:hover {
+    cursor: pointer;
+}
+
+.Dropdown {
+    margin: 0px;
+
+    height: 100%;
+    width: auto;
+}
+
+.InnerDropdown {
+    display: none;
+}
+
+.InnerDropdown h3 {
+    margin-left: 20px;
+}
+
+.Dropdown:hover {
+    cursor: pointer;
+}
+
 .OtherPage {
     font-weight: 900;
 }
@@ -121,7 +148,6 @@ body {
 .CurrentPage {
     color: #FFFFFF;
     font-weight:900;
-    text-decoration: underline;
 }
 
 .Hotlinks h3:hover {
@@ -142,6 +168,10 @@ body {
     float: right;
 
     color: #FFFFFF;
+}
+
+.SocialsCompressed:hover {
+    cursor: pointer;
 }
 
 .Socials {
@@ -172,6 +202,12 @@ body {
     background-color: #060425;
     height: auto;
     width: 100%;
+}
+
+.Spacer {
+    width: 100%;
+    height: 5px;
+    background-color: #F0502A;
 }
 
 @media (max-width: 1300px) {
@@ -230,6 +266,9 @@ body {
         margin: 0 0px;
         white-space: nowrap;
         font-size: 13px;
+    }
+    .InnerDropdown h3 {
+        margin-left: 20px;
     }
 }
 
