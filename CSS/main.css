@@ -156,15 +156,6 @@ body {
 }
 
 @media (max-width: 650px) {
-    body {
-        background-color: #060425;
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Roboto', sans-serif;
-        user-select: none;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .TopImage img {
         width: 200%;
         display: block;
@@ -183,15 +174,6 @@ body {
 }
 
 @media (max-width: 500px) {
-    body {
-        background-color: #060425;
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Roboto', sans-serif;
-        user-select: none;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .TopImage img {
         width: 270%;
         display: block;
@@ -200,30 +182,12 @@ body {
 }
 
 @media (max-height: 800px) {
-    body {
-        background-color: #060425;
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Roboto', sans-serif;
-        user-select: none;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .TopImage {
         height: 210px;
     }
 }
 
 @media (max-height: 700px) {
-    body {
-        background-color: #060425;
-        margin: 0px;
-        padding: 0px;
-        font-family: 'Roboto', sans-serif;
-        user-select: none;
-        max-width: 100%;
-        overflow-x: hidden;
-    }
     .TopImage {
         height: 150px;
     }
