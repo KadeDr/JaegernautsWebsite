@@ -84,6 +84,12 @@ body {
     white-space: nowrap;
 }
 
+.MainPage {
+    background-color: #060425;
+    height: auto;
+    width: 100%;
+}
+
 @media (max-width: 950px) {
     .TopImage img {
         width: 150%;
