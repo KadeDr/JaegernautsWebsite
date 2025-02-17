@@ -1,6 +1,6 @@
 /* Sponsorship section. Video and become a sponsor */
 .Sponsorship {
-    margin: 0;
+    margin: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
 
@@ -56,29 +56,28 @@
 /* The.. Sponsor? Body? */
 .SponsorBody {
     margin: 5%;
-    height: 60%;
+    min-height: 40%;
+    max-height: 60%;
+    height: auto;
     text-align: center;
     color: #FFFFFF;
 }
 
 .SponsorButton {
-    margin: 20px;
     width: 80%;
+    max-height: 40-px;
+    height: 10%;
+
     background-color: #FC9C85;
     border-radius: 3px;
+
     text-align: center;
     align-content: center;
-    height: 25px;
 }
 
 .SponsorButton:hover {
     cursor: pointer;
     background-color: #d58975;
-}
-
-/* HOLLYYY. THIS IS THE FRICKEN SPONSOR BUTTON */
-.SponsorButton {
-    vertical-align: bottom;
 }
 
 @media (max-width: 650px) {
