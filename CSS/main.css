@@ -314,7 +314,7 @@ body {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 440px) {
     .BEST {
         position: absolute;
         float: left;
