@@ -309,6 +309,32 @@ body {
     }
 }
 
+@media (max-width: 420px) {
+    .BEST {
+        position: absolute;
+        float: left;
+        text-align: left;
+        left: 10px;
+        top: -7px;
+    }
+
+    .FIRST {
+        position: absolute;
+        right: 10px;
+        float: right;
+        text-align: right;
+        top: -7px;
+    }
+
+    .TITLE {
+        line-height: 15px;
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        transform: translate(-65%, 0);
+    }
+}
+
 @media (max-height: 800px) {
     .TopImage {
         height: 210px;
