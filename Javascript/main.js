@@ -27,9 +27,6 @@ function ToggleDropdown() {
         document.getElementById("InnerDropdown").setAttribute("style",
             "display: block; margin: 0px; padding: 0px; position: absolute; left: 0px; width: 100%; background-color: #FFFFFF"
         )
-        document.getElementById("OuterDropdown").setAttribute("style",
-            "display: block; margin: 0px; padding: 0px;"
-        )
     }
     else if (!dropped) {
         document.getElementById("InnerDropdown").setAttribute("style",
