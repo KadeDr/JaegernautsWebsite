@@ -60,11 +60,14 @@
 
 /* The.. Sponsor? Body? */
 .SponsorBody {
-    margin: 5%;
+    margin: auto;
+
     min-height: 40%;
     max-height: 60%;
     height: auto;
+    width: 90%;
     text-align: center;
+    
     color: #FFFFFF;
 }
 
@@ -72,6 +75,8 @@
     width: 80%;
     max-height: 40-px;
     height: 10%;
+
+    margin: auto;
 
     background-color: #FC9C85;
     border-radius: 3px;

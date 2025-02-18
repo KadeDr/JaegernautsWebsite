@@ -33,7 +33,7 @@ body {
 
 /* Top Image */
 .TopImage {
-    position:relative;
+    position: relative;
     padding: 0%;
     margin: 0%;
     width: 100%;
@@ -77,9 +77,17 @@ body {
 
     width: auto;
     height: auto;
-    
+
     display: flex;
     line-height: 50px;
+}
+
+.Resources {
+    display: none;
+}
+
+.InnerHeader h3:hover {
+    cursor: pointer;
 }
 
 .MainHeader h1 {
@@ -92,6 +100,7 @@ body {
 }
 
 .MainHeader h3 {
+    z-index: 999999;
     margin: 0px;
     white-space: nowrap;
 }
@@ -99,10 +108,24 @@ body {
 /* Hotlinks */
 .Hotlinks {
     width: auto;
-    height: auto;
+    height: 50%;
 
     float: left;
-    display: inline-flex;
+    display: flex;
+}
+
+.Resources:hover {
+    display: block;
+    margin: 0px;
+    z-index: -99999;
+    padding: 15px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: auto;
+    background-color: #FFFFFF;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
 }
 
 .HotlinksWithMenu {
@@ -148,10 +171,14 @@ body {
 
 .CurrentPage {
     color: #FFFFFF;
-    font-weight:900;
+    font-weight: 900;
 }
 
-.Hotlinks h3:hover {
+.Button:hover {
+    cursor: pointer;
+}
+
+.Resources h3:hover {
     cursor: pointer;
 }
 
@@ -215,6 +242,7 @@ body {
     .HotlinksWithMenu {
         display: flex;
     }
+
     .Hotlinks {
         display: none;
     }
@@ -238,6 +266,7 @@ body {
     .SocialsCompressedText {
         display: none;
     }
+
     .HomeTwo {
         display: none;
     }
@@ -249,16 +278,19 @@ body {
         display: block;
         transform: translateX(-25%);
     }
+
     .MainHeader h1 {
         color: #FFFFFF;
         margin: 0 20px;
         font-size: 26px;
     }
+
     .MainHeader h3 {
         margin: 0 0px;
         white-space: nowrap;
         font-size: 13px;
     }
+
     .InnerDropdown h3 {
         margin-left: 20px;
     }
