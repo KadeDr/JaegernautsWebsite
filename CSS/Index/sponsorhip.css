@@ -44,7 +44,7 @@
 .Sponsor {
     border-radius: 3px;
     background-color: #F0502A;
-    width: auto;
+    width: 100%;
     height: auto;
     margin: 20px;
     margin-left: 0px;
@@ -93,6 +93,9 @@
 @media (max-width: 650px) {
     .Sponsorship {
         display: contents;
+    }
+    .Sponsor {
+        margin-bottom: 20px;
     }
     .InnerVideo {
         height: 350px;

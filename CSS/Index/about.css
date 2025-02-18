@@ -7,14 +7,18 @@
 
     justify-self: center;
     justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;  /* 3 columns with different sizes */
+    grid-template-rows: auto auto;
+    gap: 10px;
 }
 
 .Purpose {
-    width: 45%;
+    width: 100%;
     background-color: #F0502A;
     border-radius: 3px;
     height: auto;
-    align-content: center;
     justify-items: center;
     margin: 20px;
     margin-top: 0px;
@@ -37,7 +41,7 @@
 .TopPurposeImage {
     vertical-align: top;
     height: auto;
-    width: 20%/*70.5%;*/
+    width: 100%/*70.5%;*/
 }
 
 .BottomPurposeImage {
