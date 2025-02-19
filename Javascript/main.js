@@ -8,14 +8,14 @@ function Redirect(link) {
 
 var dropped = false;
 
-function HoverDropdown(drop) {
+function HoverDropdown(drop, elementID) {
     if (drop) {
-        document.getElementById("Resources").setAttribute("style",
+        document.getElementById(elementID).setAttribute("style",
             "display: block; margin: 0px; z-index: -99999; padding: 15px; padding-bottom: 2px; width: auto; background-color: #F0502A; border-radius: 3px; border-top-right-radius: 0px; border-top-left-radius: 0px;"
         )
     }
     else if (!drop) {
-        document.getElementById("Resources").setAttribute("style",
+        document.getElementById(elementID).setAttribute("style",
             "display: none;"
         )
     }

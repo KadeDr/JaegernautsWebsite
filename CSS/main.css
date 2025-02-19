@@ -184,7 +184,23 @@ body {
     cursor: pointer;
 }
 
+.Sponsors {
+    display: none;
+}
+
+.OurTeam {
+    display: none;
+}
+
 .Resources h3:hover {
+    cursor: pointer;
+}
+
+.Sponsors h3:hover {
+    cursor: pointer;
+}
+
+.OurTeam h3:hover {
     cursor: pointer;
 }
 
