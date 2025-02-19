@@ -15,18 +15,18 @@ template.innerHTML = `
         </div>
         <!-- Hotlinks -->
         <div class="Hotlinks">
-            <h3 class="CurrentPage Button" onclick="Redirect('/index.html')">Home</h3>
-            <h3 class="OtherPage Button" onclick="Redirect('/Pages/OurTeam.html')">Our Team</h3>
-            <h3 class="OtherPage Button" onclick="Redirect('/Pages/Sponsors.html')">Sponsors</h3>
+            <h3 class="Home Button" onclick="Redirect('/index.html')">Home</h3>
+            <h3 class="OurTeam Button" onclick="Redirect('/Pages/OurTeam.html')">Our Team</h3>
+            <h3 class="Sponsors Button" onclick="Redirect('/Pages/Sponsors.html')">Sponsors</h3>
             <div>
                 <h3 class="OtherPage ResourcesButton" onmouseenter="HoverDropdown(true)" onmouseleave="HoverDropdown(false)">Resources</h3>
                 <div class="Resources" id="Resources" onmouseenter="HoverDropdown(true)"
                     onmouseleave="HoverDropdown(false)">
-                    <h3 class="OtherPage" onclick="Redirect('/Pages/Build.html')">Build</h3>
-                    <h3 class="OtherPage" onclick="Redirect('/Pages/Design.html')">Design</h3>
-                    <h3 class="OtherPage" onclick="Redirect('/Pages/Marketing.html')">Marketing</h3>
-                    <h3 class="OtherPage" onclick="Redirect('/Pages/Programming.html')">Programming</h3>
-                    <h3 class="OtherPage" onclick="Redirect('/Pages/API.html')">API</h3>
+                    <h3 class="Build" onclick="Redirect('/Pages/Build.html')">Build</h3>
+                    <h3 class="Design" onclick="Redirect('/Pages/Design.html')">Design</h3>
+                    <h3 class="Marketing" onclick="Redirect('/Pages/Marketing.html')">Marketing</h3>
+                    <h3 class="Programming" onclick="Redirect('/Pages/Programming.html')">Programming</h3>
+                    <h3 class="API" onclick="Redirect('/Pages/API.html')">API</h3>
                 </div>
             </div>
         </div>
