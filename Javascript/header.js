@@ -39,11 +39,11 @@ template.innerHTML = `
             <h3 class="ResourcesButton" onmouseenter="HoverDropdown(true, 'Resources')" onmouseleave="HoverDropdown(false, 'Resources')">Resources</h3>
             <div class="Resources" id="Resources" onmouseenter="HoverDropdown(true, 'Resources')"
                 onmouseleave="HoverDropdown(false)">
-                <h3 class="Build" onclick="Redirect('Pages/Build.html')">Build</h3>
-                <h3 class="Design" onclick="Redirect('Pages/Design.html')">Design</h3>
-                <h3 class="Marketing" onclick="Redirect('Pages/Marketing.html')">Marketing</h3>
-                <h3 class="Programming" onclick="Redirect('Pages/Programming.html')">Programming</h3>
-                <h3 class="API" onclick="Redirect('Pages/API.html')">API</h3>
+                <h3 class="Build" onclick="Redirect('Pages/Resources/Build.html')">Build</h3>
+                <h3 class="Design" onclick="Redirect('Pages/Resources/Design.html')">Design</h3>
+                <h3 class="Marketing" onclick="Redirect('Pages/Resources/Marketing.html')">Marketing</h3>
+                <h3 class="Programming" onclick="Redirect('Pages/Resources/Programming.html')">Programming</h3>
+                <h3 class="API" onclick="Redirect('Pages/Resources/API.html')">API</h3>
             </div>
         </div>
     </div>
