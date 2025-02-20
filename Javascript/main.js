@@ -7,17 +7,21 @@ function Redirect(link) {
 }
 
 var dropped = false;
+let timeout;
 
 function HoverDropdown(drop, elementID) {
     if (drop) {
+        clearTimeout(timeout);
         document.getElementById(elementID).setAttribute("style",
-            "display: block; margin: 0px; z-index: -99999; padding: 15px; padding-bottom: 2px; width: auto; background-color: #F0502A; border-radius: 3px; border-top-right-radius: 0px; border-top-left-radius: 0px;"
+            "display: flex; margin: 0x; margin-left: 10px; z-index: -99999; padding: 15px; padding-bottom: 2px; width: auto; background-color: #F0502A; border-radius: 3px; border-top-right-radius: 0px; border-top-left-radius: 0px;"
         )
     }
     else if (!drop) {
-        document.getElementById(elementID).setAttribute("style",
-            "display: none;"
-        )
+        timeout = setTimeout(() => {
+            document.getElementById(elementID).setAttribute("style",
+                "display: none;"
+            ) 
+        }, 50);
     }
 }
 

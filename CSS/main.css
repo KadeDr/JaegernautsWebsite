@@ -155,8 +155,13 @@ body {
 }
 
 .InnerDropdown {
-    display: none;
-    z-index: 9999999;
+    position: absolute;
+    top: 50px; /* Adjust to match header height */
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: none; /* Hide by default */
+    z-index: 1000;
 }
 
 .InnerDropdown h3:hover {
@@ -184,12 +189,51 @@ body {
     cursor: pointer;
 }
 
-.Sponsors {
-    display: none;
+.DropdownContainer {
+    position: relative;
+    display: inline-block;
 }
 
-.OurTeam {
-    display: none;
+.OurTeam, .Sponsors, .Resources {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    margin-left: 15px;
+    padding: 10px;
+    visibility: hidden; /* Start as hidden */
+    opacity: 0; /* Start as invisible */
+    z-index: 1;
+    border-radius: 5px;
+    width: 200px;
+    min-width: 200px;
+    text-align: left;
+    white-space: nowrap;
+    flex-direction: column;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in/fade-out */
+}
+
+.DropdownContainer:hover .OurTeam,
+.DropdownContainer:hover .Sponsors,
+.DropdownContainer:hover .Resources {
+    visibility: visible; /* Make visible when hovering */
+    opacity: 1; /* Fade in */
+}
+
+.drop {
+    display: block;
+    margin: 5px 0;
+    transition: transform 0.2s ease; /* Only animate the translation */
+}
+
+.drop:hover {
+    transform: translateX(10px); /* Move slightly to the right */
+}
+
+.DropdownContainer h3 {
+    margin-left: 15px;
+    padding: 0;
+    display: inline-block;
 }
 
 .Resources h3:hover {
@@ -252,16 +296,6 @@ body {
     background-color: #060425;
     height: auto;
     width: 100%;
-}
-
-.drop:hover {
-    margin-left: 20px;
-    transition: all 0.2s linear;
-}
-
-.drop {
-    margin-left: 15px;
-    transition: all 0.2s linear;
 }
 
 .Spacer {
