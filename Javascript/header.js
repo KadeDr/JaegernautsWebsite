@@ -10,6 +10,13 @@ template.innerHTML = `
     <div class="HotlinksWithMenu">
         <div class="OuterDropdown">
             <img onclick="ToggleDropdown()" class="Dropdown" src="/Extras/Menu.png">
+            <div class="InnerDropdown" id="InnerDropdown">
+                <h3 onclick="Redirect('/Pages/OurTeam.html')" class="DropdownText">Our Team</h3>
+                <div class="Spacer"></div>
+                <h3 onclick="Redirect('/Pages/Sponsors.html')" class="DropdownText">Sponsors</h3>
+                <div class="Spacer"></div>
+                <h3 onclick="Redirect('/Pages/API.html')" class="DropdownText">Resources</h3>
+            </div>
         </div>
         <h3 onclick="Redirect('/index.html')" class="HomeTwo CurrentPage">Home</h3>
     </div>
@@ -65,14 +72,6 @@ template.innerHTML = `
     <div class="SocialsCompressed">
         <h3 class="SocialsCompressedText">Socials</h3>
     </div>
-</div>
-
-<div class="InnerDropdown" id="InnerDropdown">
-    <h3 onclick="Redirect('/Pages/OurTeam.html')" class="DropdownText">Our Team</h3>
-    <div class="Spacer"></div>
-    <h3 onclick="Redirect('/Pages/Sponsors.html')" class="DropdownText">Sponsors</h3>
-    <div class="Spacer"></div>
-    <h3 onclick="Redirect('/Pages/API.html')" class="DropdownText">Resources</h3>
 </div>
 `;
 

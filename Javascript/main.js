@@ -26,16 +26,14 @@ function HoverDropdown(drop, elementID) {
 }
 
 function ToggleDropdown() {
+    var dropdown = document.getElementById("InnerDropdown");
+
     dropped = !dropped;
     if (dropped) {
-        document.getElementById("InnerDropdown").setAttribute("style",
-            "display: block; margin: 0px; padding: 0px; position: absolute; left: 0px; width: 100%; background-color: #FFFFFF;"
-        )
+        dropdown.classList.add("dropdownActive")
     }
     else if (!dropped) {
-        document.getElementById("InnerDropdown").setAttribute("style",
-            "display: none"
-        )
+        dropdown.classList.remove("dropdownActive")
     }
 }
 

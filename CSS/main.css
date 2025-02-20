@@ -130,7 +130,8 @@ body {
 }
 
 .HotlinksWithMenu {
-    display: none;
+    display: flex;
+    visibility: hidden;
     height: 50px;
 }
 
@@ -156,12 +157,24 @@ body {
 
 .InnerDropdown {
     position: absolute;
-    top: 50px; /* Adjust to match header height */
+    top: 100%; /* Adjust to match header height */
     left: 0;
-    width: 100%;
+    width: auto;
     background-color: white;
-    display: none; /* Hide by default */
     z-index: 1000;
+    visibility: visible;
+    opacity: 0;
+    display: block;
+    margin: 0px;
+    padding-right: 10px;
+    background-color: #FFFFFF;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in/fade-out */
+}
+
+.InnerDropdown .dropdownActive {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Smooth fade-in/fade-out */
 }
 
 .InnerDropdown h3:hover {
@@ -307,6 +320,7 @@ body {
 @media (max-width: 1300px) {
     .HotlinksWithMenu {
         display: flex;
+        visibility: visible;
     }
 
     .Hotlinks {
