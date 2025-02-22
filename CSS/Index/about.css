@@ -35,7 +35,6 @@
     margin: 10px;
     color: #FFFFFF;
     text-align: center;
-    font-size:1vw;
 }
 
 .TopPurposeImage {
@@ -57,4 +56,11 @@
     margin: 20px;
     margin-top: 0px;
     margin-left: 0px;
+}
+
+@media (max-width: 650px) {
+    .About {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
 }

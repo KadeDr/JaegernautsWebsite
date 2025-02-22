@@ -60,14 +60,13 @@
 
 /* The.. Sponsor? Body? */
 .SponsorBody {
-    margin: auto;
-
-    min-height: 40%;
-    max-height: 60%;
-    height: auto;
     width: 90%;
+    height: 40%;
+}
+
+.SponsorBodyText {
     text-align: center;
-    
+    vertical-align: center;
     color: #FFFFFF;
 }
 
@@ -100,5 +99,25 @@
     .InnerVideo {
         height: 350px;
         margin-top: 20px;
+    }
+    .Sponsor {
+        height: 250px;
+    }
+
+    .SponsorTitle {
+        top: 25px;
+        position: relative
+    }
+    .SponsorBody {
+        top: 25px;
+        position: relative;
+        display: flex;
+    }
+    .SponsorBodyText {
+        vertical-align: center;
+    }
+    .SponsorButton {
+        top: 50px;
+        position: relative
     }
 }
