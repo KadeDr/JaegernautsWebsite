@@ -7,7 +7,7 @@
     height: auto;
     z-index: 999;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 /* The horizontal divider between vertical elements */
