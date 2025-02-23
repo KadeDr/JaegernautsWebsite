@@ -130,7 +130,7 @@ body {
 }
 
 .HotlinksWithMenu {
-    display: flex;
+    display: none;
     visibility: hidden;
     height: 50px;
 }
