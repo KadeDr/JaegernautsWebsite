@@ -37,6 +37,15 @@ function ToggleDropdown() {
     }
 }
 
+window.addEventListener('scroll', () => {
+    document.body.classList.add("Scrolling");
+
+    clearTimeout(window.scrollTimeout)
+    window.scrollTimeout = setTimeout(() => {
+        document.body.classList.remove("Scrolling")
+    }, 200);
+});
+
 window.addEventListener('scroll', function () {
     let scrolled = window.scrollY;
     document.querySelector('.TopImage').style.transform = `translateY(${scrolled * 0.5}px)`;
