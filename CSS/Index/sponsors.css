@@ -1,0 +1,129 @@
+.SponsorSectionTitle {
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: #F0502A;
+    font-size: 45px;
+    width: 100%;
+}
+
+.SponsorSectionHeader {
+    align-self: center;
+    align-items: center;
+    text-align: center;
+    color: #F0502A;
+    font-size: 25px;
+    width: 100%;
+}
+
+.SponsorSectionSilver {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.SponsorSectionSilverLeft {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.SponsorSectionSilverRight {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.SponsorSectionSilverImage {
+    width: 100%;
+}
+
+.SponsorSectionBronze {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 20px;
+}
+
+.SponsorSectionBronzeLeft {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.SponsorSectionBronzeRight {
+    align-self: center;
+
+    width: 100%;
+    height: auto;
+
+    justify-self: center;
+    justify-content: center;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+}
+
+.SponsorSectionBronzeLeftImage {
+    width: 100%;
+}
+
+.FelizModern {
+    width: 50%;
+}
+
+.RanchoDiaz {
+    width: 50%;
+    align-self: right;
+    justify-self: right;
+}
+
+.SweetBites {
+    width: 50%;
+}
