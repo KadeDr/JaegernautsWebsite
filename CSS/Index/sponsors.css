@@ -1,3 +1,7 @@
+.SponsorsSection {
+    margin: 20px;
+}
+
 .SponsorSectionTitle {
     align-self: center;
     align-items: center;
@@ -63,6 +67,8 @@
 
 .SponsorSectionSilverImage {
     width: 100%;
+    position: relative;
+    display: block;
 }
 
 .SponsorSectionSilverImage:hover {
@@ -116,6 +122,38 @@
 
 .SponsorSectionBronzeLeftImage {
     width: 100%;
+    position: relative;
+    display: block;
+}
+
+.SponsorImageContainer, .SponsorCircleImageContainer {
+    position: relative;
+}
+
+.SponsorImageContainer, .SponsorCircleImageContainer {
+    position: relative;
+}
+
+.SponsorImageContainer::before, .SponsorCircleImageContainer::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #F0502A;
+    transform: scale(0.5);
+    transition: transform 0.05s ease-out, opacity 0.05s ease-out;
+}
+
+.SponsorImageContainer:hover::before, .SponsorCircleImageContainer:hover::before {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.SponsorCircleImageContainer::before {
+    border-radius: 50%;
+    transform: scale(0);
 }
 
 .SponsorSectionBronzeLeftImage:hover {

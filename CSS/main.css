@@ -36,6 +36,16 @@ body {
     font-weight: bold;
 }
 
+body {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
 /* Top Image */
 .TopImage {
     position: relative;
@@ -234,7 +244,7 @@ body {
 
 
 
-.OurTeamButton::after {
+.OurTeamButton::after, .SponsorsButton::after, .ResourcesButton::after {
     content: '';
     position: absolute;
     bottom: -5px;
@@ -247,41 +257,7 @@ body {
     transform: scaleX(0);
 }
 
-.OurTeamButton:hover::after {
-    transform: scaleX(0.9);
-}
-
-.SponsorsButton::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 8px;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    transition: .2s;
-    transition-timing-function: ease-out;
-    transform: scaleX(0);
-}
-
-.SponsorsButton:hover::after {
-    transform: scaleX(0.9);
-}
-
-.ResourcesButton::after {
-    content: '';
-    position: absolute;
-    bottom: -5px;
-    left: 8px;
-    width: 100%;
-    height: 3px;
-    background-color: white;
-    transition: .2s;
-    transition-timing-function: ease-out;
-    transform: scaleX(0);
-}
-
-.ResourcesButton:hover::after {
+.OurTeamButton:hover::after, .SponsorsButton:hover::after,.ResourcesButton:hover::after {
     transform: scaleX(0.9);
 }
 

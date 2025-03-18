@@ -67,7 +67,7 @@ template.innerHTML = `
     </div>
     <!-- Socials -->
     <div class="Socials">
-        <img src="/Extras/Socials/Email.png">
+        <img onclick = "NewTab('mailto:mason.cardiff@comalisd.org')"src="/Extras/Socials/Email.png">
         <img onclick="NewTab('https://github.com/Jaegernauts5103')" src="/Extras/Socials/Github.png">
         <img src="/Extras/Socials/X.png">
         <img onclick="NewTab('https://www.facebook.com/profile.php?id=61571562490888')" src="/Extras/Socials/Facebook.png">
