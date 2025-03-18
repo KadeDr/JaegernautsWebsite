@@ -22,7 +22,9 @@ template.innerHTML = `
     </div>
     <!-- Hotlinks -->
     <div class="Hotlinks">
-        <h3 class="Home Button" onclick="Redirect('/index.html')">Home</h3>
+        <div class = "HomeContainer">
+            <h3 class="HomeButton" onclick="Redirect('/index.html')">Home</h3>
+        </div>
         <div class="DropdownContainer">
             <h3 class="OurTeamButton" onclick="Redirect('/Pages/OurTeam.html')" onmouseenter="HoverDropdown(true, 'OurTeam')" onmouseleave="HoverDropdown(false, 'OurTeam')">Our Team</h3>
             <div class="OurTeam" id="OurTeam" onmouseenter="HoverDropdown(true, 'OurTeam')" onmouseleave="HoverDropdown(false, 'OurTeam')">
@@ -33,13 +35,16 @@ template.innerHTML = `
         <div class="DropdownContainer">
             <h3 class="SponsorsButton" onclick="Redirect('/Pages/Sponsors.html')" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">Sponsors</h3>
             <div class="Sponsors" id="Sponsors" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">
-                <h3 class="CGT drop" onclick="Redirect('/Pages/Sponsors/CGT.html')">CGT</h3>
-                <h3 class="TexasWorkforce drop" onclick="Redirect('/Pages/Sponsors/TexasWorkforce.html')">Texas Workforce</h3>
-                <h3 class="Ventana drop" onclick="Redirect('/Pages/Sponsors/Ventana.html')">Ventana</h3>
-                <h3 class="Detex drop" onclick="Redirect('/Pages/Sponsors/Detex.html')">Detex</h3>
-                <h3 class="Premier drop" onclick="Redirect('/Pages/Sponsors/PremierCabinetsNewBraunfels.html')">Premier Cabinets New Braunfels</h3>
-                <h3 class="SweetBites drop" onclick="Redirect('/Pages/Sponsors/SweetBites.html')">Sweet Bites</h3>
-                <h3 class="OakRidge drop" onclick="Redirect('/Pages/Sponsors/OakRidgeBellows.html')">Oak Ridge Bellows</h3>
+                <h3 class="ComalISD drop" onclick="Redirect('https://www.comalisd.org')">Comal ISD</h3>    
+                <h3 class="CGT drop" onclick="Redirect('https://www.cgtower.com')">CGT</h3>
+                <h3 class="TexasWorkforce drop" onclick="Redirect('https://www.twc.texas.gov')">Texas Workforce</h3>
+                <h3 class="Ventana drop" onclick="Redirect('https://www.ventanaappliedsciences.com')">Ventana</h3>
+                <h3 class="Detex drop" onclick="Redirect('https://www.detex.com')">Detex</h3>
+                <h3 class="Premier drop" onclick="Redirect('https://www.premiercabinetsnewbraunfels.com')">Premier Cabinets New Braunfels</h3>
+                <h3 class="SweetBites drop" onclick="Redirect('https://www.sweetbitesnb.com')">Sweet Bites</h3>
+                <h3 class="RanchoDiaz drop" onclick="Redirect('https://ranchodiaz.com')">Rancho Diaz</h3>
+                <h3 class="FelizModern drop" onclick="Redirect('https://www.felizmodern.com')">Feliz Modern</h3>
+                <h3 class="OakRidge drop" onclick="Redirect('https://www.oakridgebellows.com')">Oak Ridge Bellows</h3>
             </div>
         </div>
         <div class="DropdownContainer">
