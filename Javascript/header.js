@@ -35,16 +35,16 @@ template.innerHTML = `
         <div class="DropdownContainer">
             <h3 class="SponsorsButton" onclick="Redirect('/Pages/Sponsors.html')" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">Sponsors</h3>
             <div class="Sponsors" id="Sponsors" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">
-                <h3 class="ComalISD drop" onclick="Redirect('https://www.comalisd.org')">Comal ISD</h3>    
-                <h3 class="CGT drop" onclick="Redirect('https://www.cgtower.com')">CGT</h3>
-                <h3 class="TexasWorkforce drop" onclick="Redirect('https://www.twc.texas.gov')">Texas Workforce</h3>
-                <h3 class="Ventana drop" onclick="Redirect('https://www.ventanaappliedsciences.com')">Ventana</h3>
-                <h3 class="Detex drop" onclick="Redirect('https://www.detex.com')">Detex</h3>
-                <h3 class="Premier drop" onclick="Redirect('https://www.premiercabinetsnewbraunfels.com')">Premier Cabinets New Braunfels</h3>
-                <h3 class="SweetBites drop" onclick="Redirect('https://www.sweetbitesnb.com')">Sweet Bites</h3>
-                <h3 class="RanchoDiaz drop" onclick="Redirect('https://ranchodiaz.com')">Rancho Diaz</h3>
-                <h3 class="FelizModern drop" onclick="Redirect('https://www.felizmodern.com')">Feliz Modern</h3>
-                <h3 class="OakRidge drop" onclick="Redirect('https://www.oakridgebellows.com')">Oak Ridge Bellows</h3>
+                <h3 class="ComalISD drop" onclick="NewTab('https://www.comalisd.org')">Comal ISD</h3>    
+                <h3 class="CGT drop" onclick="NewTab('https://www.cgtower.com')">CGT</h3>
+                <h3 class="TexasWorkforce drop" onclick="NewTab('https://www.twc.texas.gov')">Texas Workforce</h3>
+                <h3 class="Ventana drop" onclick="NewTab('https://www.ventanaappliedsciences.com')">Ventana</h3>
+                <h3 class="Detex drop" onclick="NewTab('https://www.detex.com')">Detex</h3>
+                <h3 class="Premier drop" onclick="NewTab('https://www.premiercabinetsnewbraunfels.com')">Premier Cabinets New Braunfels</h3>
+                <h3 class="SweetBites drop" onclick="NewTab('https://www.sweetbitesnb.com')">Sweet Bites</h3>
+                <h3 class="RanchoDiaz drop" onclick="NewTab('https://ranchodiaz.com')">Rancho Diaz</h3>
+                <h3 class="FelizModern drop" onclick="NewTab('https://www.felizmodern.com')">Feliz Modern</h3>
+                <h3 class="OakRidge drop" onclick="NewTab('https://www.oakridgebellows.com')">Oak Ridge Bellows</h3>
             </div>
         </div>
         <div class="DropdownContainer">
