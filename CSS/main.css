@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 ::-webkit-scrollbar {
-    display: none;
+    display: block;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
-    display: none;
+    background-color: #F0502A;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -14,11 +15,6 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #db7e66;
-}
-
-.Scrolling::-webkit-scrollbar {
-    display: block;
-    width: 10px;
 }
 
 html {
@@ -383,7 +379,7 @@ body {
     background-color: #F0502A;
 }
 
-.BottomHeader {
+.Footer {
     padding: 0px;
     margin-top: 20px;
     width: 100%;

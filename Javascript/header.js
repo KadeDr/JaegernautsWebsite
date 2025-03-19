@@ -1,6 +1,6 @@
-const template = document.createElement('template');
+const header = document.createElement('template');
 
-template.innerHTML = `
+header.innerHTML = `
 <!-- Header -->
 <div class="TopImage">
     <img class="TopImageImage" src="/Extras/Jaegernauts.png" alt="Jaegernauts Header">
@@ -80,4 +80,4 @@ template.innerHTML = `
 </div>
 `;
 
-document.body.prepend(template.content);
+document.body.prepend(header.content);
