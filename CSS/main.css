@@ -409,6 +409,7 @@ body {
 }
 
 .footer {
+    margin-top: 50px;
     background-color: #F0502A;
     color: #fff;
     padding: 40px 20px;

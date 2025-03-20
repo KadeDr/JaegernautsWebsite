@@ -7,12 +7,6 @@
     width: 100%;
 }
 
-.BenjaminImage {
-    width: 37%;
-    margin-right: 20px;
-}
-
-
 .AlumniSection {
     margin: 0px;
     margin-bottom: 20px;
@@ -61,9 +55,30 @@
     vertical-align: middle;
 }
 
-.MichaelImage {
-    width: 37%;
+.LeftAlumniImageContainer {
+    width: 60%;
+    margin-right: 20px;
+}
+
+.RightAlumniImageContainer {
+    width: 60%;
     margin-left: 20px;
+}
+
+.BottomRightAlumniImageContainer {
+    display: block;
+}
+
+.TopRightAlumniImageContainer {
+    display: none;
+}
+
+.LeftAlumniImage {
+    width: 100%;
+}
+
+.RightAlumniImage {
+    width: 100%;
 }
 
 @media (max-width: 650px) {
@@ -73,13 +88,48 @@
     .AlumniBody {
         display: block;
     }
+    .BottomRightAlumniImageContainer {
+        display: none;
+    }
+    
+    .TopRightAlumniImageContainer {
+        display: block
+    }
+    .RightAlumniImageContainer {
+        width: 100%;
+        margin-left: 0px;
+        background-color: #000000;
+        margin-bottom: 20px;
+    }
+    .LeftAlumniImageContainer {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 20px;
+        background-color: #000000;
+    }
+    .LeftAlumniImage {
+        width: 50%;
+        margin: auto;
+        transform: translate(50%);
+    }
+    .RightAlumniImage {
+        width: 50%;
+        margin: auto;
+        transform: translate(50%);
+    }
+    .AlumniBody {
+        padding: 20px;
+        padding-left: 0px;
+    }
 }
 
 @media (max-width: 440px) {
-    .BenjaminImage {
+    .LeftAlumniImage {
         width: 100%;
+        transform: translate(0%);
     }
-    .MichaelImage {
+    .RightAlumniImage {
         width: 100%;
+        transform: translate(0%);
     }
 }
