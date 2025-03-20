@@ -54,7 +54,7 @@ header.innerHTML = `
                 <h3 class="Build drop" onclick="Redirect('/Pages/Resources/Build.html')">Build</h3>
                 <h3 class="Design drop" onclick="Redirect('/Pages/Resources/Design.html')">Design</h3>
                 <h3 class="Marketing drop" onclick="Redirect('/Pages/Resources/Marketing.html')">Marketing</h3>
-                <h3 class="Programming drop" onclick="Redirect('/Pages/Resources/Programming.html')">Programming</h3>
+                <h3 class="Programming drop" onclick="Redirect('/Documentation/Programming/Overview.html')">Programming</h3>
                 <h3 class="API drop" onclick="Redirect('/Pages/Resources/API.html')">API</h3>
             </div>
         </div>
@@ -67,7 +67,7 @@ header.innerHTML = `
     </div>
     <!-- Socials -->
     <div class="Socials">
-        <img onclick = "NewTab('mailto:mason.cardiff@comalisd.org')"src="/Extras/Socials/Email.png">
+        <img src="/Extras/Socials/Email.png">
         <img onclick="NewTab('https://github.com/Jaegernauts5103')" src="/Extras/Socials/Github.png">
         <img src="/Extras/Socials/X.png">
         <img onclick="NewTab('https://www.facebook.com/profile.php?id=61571562490888')" src="/Extras/Socials/Facebook.png">
