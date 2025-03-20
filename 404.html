@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Oops!</title>
+    <style>
+        body {
+            background-color: #2d2d2d;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 100px;
+            font-weight: bold;
+            color: #F0502A;
+            animation: shake 0.8s ease-in-out infinite;
+        }
+        h2 {
+            font-size: 24px;
+            color: #aaa;
+        }
+        button {
+            background-color: #F0502A;
+            color: #fff;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        button:hover {
+            transform: scale(1.1);
+            background-color: #d04020;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(-10px); }
+            50% { transform: translateX(10px); }
+            100% { transform: translateX(-10px); }
+        }
+    </style>
+</head>
+<body>
+    <h1>404</h1>
+    <h2>Oops! This page isn't here.</h2>
+    <p>We couldn't find the page you're looking for. Maybe the URL is wrong?</p>
+    <button onclick="window.location.href='index.html'">Go to Home</button>
+</body>
+</html>
