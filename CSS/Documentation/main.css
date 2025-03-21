@@ -102,7 +102,10 @@ h2, h3 {
 }
 
 .Right button:hover {
-    background-color: #333333;
+    background-color: #F0502A;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #333333;
     color: #FFFFFF;
 }
 
