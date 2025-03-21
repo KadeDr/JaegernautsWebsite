@@ -51,6 +51,7 @@
     margin-top: 0px;
     margin-bottom: 0px;
     justify-items: center;
+    position: relative;
 }
 
 .SponsorTitle {
@@ -82,11 +83,14 @@
 
     text-align: center;
     align-content: center;
+    transition: .2s;
+    transition-timing-function: ease-out;
 }
 
 .SponsorButton:hover {
     cursor: pointer;
-    background-color: #d58975;
+    background-color: white;
+    color:#F0502A
 }
 
 @media (max-width: 650px) {
