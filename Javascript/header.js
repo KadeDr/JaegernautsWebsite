@@ -3,7 +3,7 @@ const header = document.createElement('template');
 header.innerHTML = `
 <!-- Header -->
 <div class="TopImage">
-    <img class="TopImageImage" src="/Extras/Jaegernauts.png" alt="Jaegernauts Header">
+    <img class="TopImageImage" src="/Extras/JaegernautsMedium.png" alt="Jaegernauts Header">
 </div>
 <!-- Dropdown -->
 <div class="MainHeader">
