@@ -38,6 +38,7 @@ documentHeader.innerHTML = `
             <h3>Lesson 6</h3>
         </div>
     </div>
+    <button onclick="Redirect('/index.html')" class="ReturnHome">Return to Home</button>
 </div>
 `;
 

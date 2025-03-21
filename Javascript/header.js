@@ -26,15 +26,19 @@ header.innerHTML = `
             <h3 class="HomeButton" onclick="Redirect('/index.html')">Home</h3>
         </div>
         <div class="DropdownContainer">
-            <h3 class="OurTeamButton" onclick="Redirect('/Pages/OurTeam.html')" onmouseenter="HoverDropdown(true, 'OurTeam')" onmouseleave="HoverDropdown(false, 'OurTeam')">Our Team</h3>
+            <h3 class="OurTeamButton" onmouseenter="HoverDropdown(true, 'OurTeam')" onmouseleave="HoverDropdown(false, 'OurTeam')">Our Team</h3>
             <div class="OurTeam" id="OurTeam" onmouseenter="HoverDropdown(true, 'OurTeam')" onmouseleave="HoverDropdown(false, 'OurTeam')">
-                <h3 class="Mentors drop" onclick="Redirect('/Pages/OurTeam/Mentors.html')">Mentors</h3>
+                <h3 class="MeetUs drop" onclick="Redirect('/Pages/OurTeam/MeetUs.html')">Meet Us</h3>
+                <h3 class="Impact drop" onclick="Redirect('/Pages/OurTeam/Mentors.html')">Our Impact</h3>
                 <h3 class="Alumni  drop" onclick="Redirect('/Pages/OurTeam/Alumni.html')">Alumni</h3>
+                <h3 class="Mentors drop" onclick="Redirect('/Pages/OurTeam/Mentors.html')">Mentors</h3>
             </div>
         </div>
         <div class="DropdownContainer">
-            <h3 class="SponsorsButton" onclick="Redirect('/Pages/Sponsors.html')" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">Sponsors</h3>
+            <h3 class="SponsorsButton" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">Sponsors</h3>
             <div class="Sponsors" id="Sponsors" onmouseenter="HoverDropdown(true, 'Sponsors')" onmouseleave="HoverDropdown(false, 'Sponsors')">
+                <h3 class="BecomeASponsor drop" onclick="NewTab('https://www.comalisd.org')">Become a Sponsor!</h3>    
+                <h3 class="Blank drop" style="visibility:hidden">.</h3>    
                 <h3 class="ComalISD drop" onclick="NewTab('https://www.comalisd.org')">Comal ISD</h3>    
                 <h3 class="CGT drop" onclick="NewTab('https://www.cgtower.com')">CGT</h3>
                 <h3 class="TexasWorkforce drop" onclick="NewTab('https://www.twc.texas.gov')">Texas Workforce</h3>

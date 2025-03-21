@@ -140,6 +140,10 @@ body {
     border-top-left-radius: 0px;
 }
 
+.HomeButton:hover {
+    cursor: pointer;
+}
+
 .HotlinksWithMenu {
     display: none;
     visibility: hidden;
