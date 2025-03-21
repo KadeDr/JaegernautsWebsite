@@ -6,37 +6,27 @@ documentHeader.innerHTML = `
         <h1>5103</h1>
         <h3>Documentation</h3>
     </div>
+    <div class="Right">
+        <div class="Search">
+
+        </div>
+        <button class="Build">Build</button>
+        <button class="Marketing">Marketing</button>
+        <button class="Design">Design</button>
+        <button class="Programming">Programming</button>
+    </div>
 </div>
 
 <div class="Sidebar">
     <div class="NavigationPanel">
-        <div onclick="Redirect('/Documentation/Programming/Overview.html')">
-            <h3 class="Overview">Overview</h3>
-        </div>
-        <div>
-            <h3 onclick="Redirect('/Documentation/Programming/Setup.html')" class="Setup">Setup</h3>
-        </div>
-        <div>
-            <h3>Lesson 2</h3>
-        </div>
-        <div>
-            <h3>Lesson 3</h3>
-        </div>
-        <div>
-            <h3 class="SubPage">Lesson 3a</h3>
-        </div>
-        <div>
-            <h3 class="SubPage">Lesson 3b</h3>
-        </div>
-        <div>
-            <h3>Lesson 4</h3>
-        </div>
-        <div>
-            <h3>Lesson 5</h3>
-        </div>
-        <div>
-            <h3>Lesson 6</h3>
-        </div>
+        <button onclick="Redirect('/Documentation/Programming/Overview.html')" class="Page">Overview</button>
+        <button onclick="Redirect('/Documentation/Programming/Setup.html')" class="Setup">Setup</button>
+        <button>Lesson 2</button>
+        <button>Lesson 3</button>
+        <button class="SubPage">Lesson 3a</button>
+        <button class="SubPage">Lesson 3b</button>
+        <button>Lesson 4</button>
+        <button>Lesson 5</button>
     </div>
     <button onclick="Redirect('/index.html')" class="ReturnHome">Return to Home</button>
 </div>

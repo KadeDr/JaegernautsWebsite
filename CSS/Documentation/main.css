@@ -1,6 +1,35 @@
+/* Import Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-/* Scrollbar track */
+/* Global Styles */
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+    background-color: #FFFFFF;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #333333;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+h2, h3 {
+    color: #333333;
+}
+
+/* Scrollbar Styling */
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -17,43 +46,13 @@
     background: #d04020;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Inter', sans-serif;
-    user-select: none;
-    overflow-x: hidden;
-    background-color: #FFFFFF;
-    margin-top: 5%;
-    margin-left: 20%;
-    margin-right: 20%;
-    color: #333333;  /* Dark gray for body text */
-}
-
-body {
-    opacity: 0;
-    animation: fadeIn 1s forwards;
-}
-
-@keyframes fadeIn {
-    to {
-        opacity: 1;
-    }
-}
-
-h2, h3 {
-    color: #333333;  /* Dark gray for headings */
-}
-
+/* Header */
 .Header {
     position: fixed;
+    display: inline-flex;
     top: 0px;
     left: 0px;
     z-index: 1;
-    margin: 0px;
-    padding: 0px;
     width: 100%;
     height: 6%;
     background-color: #F0502A;
@@ -61,7 +60,7 @@ h2, h3 {
 
 .Title {
     height: 100%;
-    width: auto;
+    width: max-content;
     display: flex;
     margin-left: 38px;
     align-items: center;
@@ -76,6 +75,48 @@ h2, h3 {
     font-size: medium;
 }
 
+.Right {
+    position: fixed;
+    right: 0px;
+    height: 6%;
+    width: 70%;
+}
+
+.Right button {
+    float: right;
+    width: max-content;
+    min-width: 10%;
+    text-align: center;
+    margin-top: 1%;
+    margin-right: 15px;
+    height: 60%;
+    background-color: #FFFFFF;
+    color: #F0502A;
+    border-style: none;
+    font-size: medium;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.Right button:hover {
+    background-color: #F0502A;
+    color: #FFFFFF;
+}
+
+.Search {
+    float: right;
+    width: 10%;
+    margin-top: 1.25%;
+    margin-right: 15px;
+    height: 50%;
+    background-color: #FFFFFF;
+    border-radius: 200px;
+}
+
+/* Sidebar */
 .Sidebar {
     display: flex;
     flex-direction: column;
@@ -86,10 +127,7 @@ h2, h3 {
     width: 15%;
     padding-top: 1%;
     background-color: #ffffff;
-    border-color: #000000;
-    border-width: 0px;
-    border-right-width: 3px;
-    border-style: solid;
+    border-right: 3px solid #000000;
     transition: transform 0.3s ease;
 }
 
@@ -97,16 +135,8 @@ h2, h3 {
     transform: translateX(10px);
 }
 
-.Sidebar h3 {
-    color: #333333; /* Default text color */
-}
-
-.Sidebar h3:hover {
-    cursor: pointer;
-}
-
 .Sidebar .current-page {
-    color: #F0502A; /* Orange color for the active page */
+    color: #F0502A;
 }
 
 .current-page {
@@ -120,68 +150,42 @@ h2, h3 {
     transform: scale(1.1);
 }
 
-.NavigationPanel h3.active {
-    color: #F0502A; /* Active color */
-    font-weight: bold;
-}
-
-
-.Page {
-    margin-left: 10%;
-    color: gray;
-    font-size: 13px;
-    height: 23px;
-    padding-left: 10px;
-    border-radius: 5px;
-    width: 60%;
-}
-
-.Page h3 {
-    padding-top: 3px;
-}
-
-.Page:hover {
-    background-color: #e3e3e3;
-    cursor: pointer;
-}
-
+/* Navigation Panel */
 .NavigationPanel {
     margin-left: 10%;
     width: 60%;
 }
 
-.SubPage {
-    display: list-item;
-    list-style-type: circle;
-    margin-left: 13px;
-    color: gray;
-    font-size: 13px;
-}
-
-.NavigationPanel div {
+.NavigationPanel button {
     padding-left: 10px;
     border-radius: 5px;
+    font-size: medium;
     height: 23px;
     width: 100%;
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0.3s ease;
+    color: #333333;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: none;
+    background-color: transparent;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
-.NavigationPanel div:hover {
-    background-color: #F0502A; /* Orange background on hover */
-    color: white; /* White text on hover */
-    transform: translateX(10px); /* Subtle slide to the right */
+.NavigationPanel button:hover {
+    cursor: pointer;
+    background-color: #F0502A;
+    color: white;
+    transform: translateX(10px);
 }
 
-.NavigationPanel div h3 {
-    padding-top: 4px;
-    font-size: 13px;
-}
-
+/* Return Home Button */
 .ReturnHome {
     border-radius: 5px;
     height: 60px;
     width: 80%;
-    transition: all 0.3s ease; /* Smooth transition */
+    transition: all 0.3s ease;
     bottom: 15px;
     margin-top: auto;
     margin-bottom: 95px;
@@ -189,13 +193,10 @@ h2, h3 {
     transform: translateX(-50%);
     background-color: white;
     display: flex;
-    border-width: 2px;
-    border-style: solid;
-    border-color: #F0502A;
+    border: 2px solid #F0502A;
     font-size: medium;
     color: #F0502A;
     justify-content: center;
-    padding: auto;
     padding-top: 19px;
     font-weight: bold;
     overflow: hidden;
@@ -209,6 +210,7 @@ h2, h3 {
     cursor: pointer;
 }
 
+/* Main Section */
 .MainSection {
     width: 50%;
     padding-bottom: 15px;
@@ -219,6 +221,7 @@ h2, h3 {
     margin-bottom: 60px;
 }
 
+/* Text Styling */
 p {
     margin-bottom: 50px;
 }
@@ -227,6 +230,16 @@ p {
     margin-bottom: 15px;
 }
 
+.AboveText {
+    font-size: x-small;
+}
+
+.UnderText {
+    padding-top: 3px;
+    font-size: large;
+}
+
+/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -238,7 +251,7 @@ table {
 th, td {
     border: 2px solid #000;
     padding: 12px;
-    color: #333333;  /* Dark gray for table text */
+    color: #333333;
 }
 
 th {
@@ -260,28 +273,12 @@ td {
     font-weight: bold;
 }
 
-.end {
-    padding-top: 15px;
-    display: flex;
-}
-
-.AboveText {
-    font-size: x-small;
-}
-
-.UnderText {
-    padding-top: 3px;
-    font-size: large;
-}
-
-.previous-button {
-    margin-right: 20px;
-}
-
-.next-button, .previous-button {
+/* Navigation Buttons */
+.previous-button, .next-button {
     background-color: transparent;
-    border: 2px solid #F0502A;  /* Orange color */
+    border: 2px solid #F0502A;
     color: #F0502A;
+    margin-top: 15px;
     padding: 10px 20px;
     font-size: 16px;
     font-weight: bold;
@@ -298,12 +295,13 @@ td {
     color: white;
 }
 
+/* Language Selection Button */
 .lang-button {
     background-color: transparent;
-    border: 2px solid #F0502A;  /* Using your preferred orange */
+    border: 2px solid #F0502A;
     color: #F0502A;
-    padding: 8px 15px;  /* Smaller padding */
-    font-size: 14px;  /* Smaller font size */
+    padding: 8px 15px;
+    font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
@@ -315,22 +313,23 @@ td {
 .lang-button:hover {
     background-color: #F0502A;
     color: white;
-    transform: scale(1.05);  /* Slight grow effect on hover */
+    transform: scale(1.05);
 }
 
+/* Content Display */
 .ContentDisplay {
-    border: 2px solid #F0502A;  /* Orange border matching the button color */
+    border: 2px solid #F0502A;
     padding: 15px;
-    border-radius: 8px;  /* Optional rounded corners */
+    border-radius: 8px;
     margin-top: 20px;
-    background-color: #fff;  /* Background color for better contrast */
-    color: #333333;  /* Dark gray text for content area */
+    background-color: #fff;
+    color: #333333;
 }
 
+/* Image Styling */
 .Image {
     width: 70%;
     height: auto;
-    border-width: 2px;
-    border-style: solid;
+    border: 2px solid;
     border-radius: 5px;
 }
