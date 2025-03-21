@@ -63,6 +63,8 @@
 .SponsorBody {
     width: 90%;
     height: 40%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .SponsorBodyText {
