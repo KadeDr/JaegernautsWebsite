@@ -6,6 +6,11 @@ documentHeader.innerHTML = `
         <h1>5103</h1>
         <h3>Documentation</h3>
     </div>
+
+    <div class="Center">
+        <h2>Programming</h2>
+    </div>
+
     <div class="Right">
         <div class="Search">
 
