@@ -1,6 +1,8 @@
 /* About Us Section... */
 .About {
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 
     width: 100%;
     height: auto;
@@ -30,6 +32,9 @@
 .PurposeTitle {
     margin: 10px;
     padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
 }
 
 .PurposeBody {

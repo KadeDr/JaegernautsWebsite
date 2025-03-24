@@ -1,8 +1,8 @@
 /* Main Scrolling section */
 .MainSection {
     justify-self: center;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
     width: 60%;
     max-width: 1200px;
     height: auto;
@@ -15,6 +15,8 @@
 .Line {
     margin: 20px;
     margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
     
     width: 100%;
     height: 5px;
@@ -29,7 +31,7 @@
 @media (max-width: 950px) {
     .MainSection {
         width: 93%;
-        margin-left: 0%;
-        margin-right: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
