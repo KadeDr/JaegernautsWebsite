@@ -148,9 +148,9 @@ h2, h3 {
     transition: transform 0.3s ease;
 }
 
-.Sidebar:hover {
+/* .Sidebar:hover {
     transform: translateX(10px);
-}
+} */
 
 .Sidebar .current-page {
     color: #F0502A;
